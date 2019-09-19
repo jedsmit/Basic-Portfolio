@@ -3,8 +3,6 @@ body {
     color: #777777;
     background: #dddddd;
     background-image: url(gravel/gravel.png);
-    
-   
 }
     
 
@@ -23,9 +21,7 @@ header {
 
 h1 {
     position: relative;
-    margin-bottom: 0px;
-   
-    
+    margin-bottom: 0px;       
 }
 
 nav {
@@ -55,13 +51,14 @@ li {
 
 .main-content {
     width: 960px;
-    height: 500px; 
+    height: auto; 
     background: #ffffff;
     position: relative;
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
     margin-bottom: 250px; 
+    padding-bottom: 20px;
 }
 
 .about-me {
@@ -87,23 +84,80 @@ li {
 }
 
 p {
-    width: 700px;
-   
+    padding: 20px;
 }
 
 .blue-box {
     background: #4aaaa4;
-    height: 10px;
+    height: 8px;
+    width: 100%;
+    position: relative;
 
 }
-    footer {
+    
+footer {
     background: #777777;
     color: #dddddd;
-    position: static;
     bottom: 0px;
     left: 0px;
     height: 50px;
     width: 100%;
     text-align: center;
+    position: fixed;
+    font-size: 12px;
+
+}
+
+form {
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    width: 95%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+textarea {
+    width: 95%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 75px;
+    height: 25px;
+    background: #4aaaa4;
+    color: #ffffff;
+    border: none;
+}
+
+.container {
+    width: 95%;
+    position: relative;
+    margin: 25px auto 25px auto;
+}
+
+.thumbnail {
+    height: 300px;
+    width: 300px;
+    position: relative;
     
+}
+
+.project-name {
+    height: 25%;
+    width: 300px;
+    background: #4aaaa4;
+    color: #ffffff;
+    position: relative; 
+
 }
